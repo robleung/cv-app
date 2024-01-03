@@ -1,7 +1,13 @@
+import Info from "./components/info";
+import Experience from "./components/experience";
+import Education from "./components/education";
+
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Info></Info>
+      <Experience></Experience>
+      <Education></Education>
     </>
   );
 }
